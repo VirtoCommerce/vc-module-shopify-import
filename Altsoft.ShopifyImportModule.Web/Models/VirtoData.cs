@@ -1,8 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using Altsoft.ShopifyImportModule.Web.Models.Shopify;
+using System.Collections.Generic;
 using System.IO;
-using Altsoft.ShopifyImportModule.Web.Models.Shopify;
 using VirtoCommerce.Domain.Catalog.Model;
-using VirtoCommerce.Content.Data.Models;
 
 namespace Altsoft.ShopifyImportModule.Web.Models
 {

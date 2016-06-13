@@ -1,11 +1,9 @@
-﻿using System.Linq;
-using System.Web.Http;
-using System.Web.Http.Description;
-using Altsoft.ShopifyImportModule.Web.Interfaces;
+﻿using Altsoft.ShopifyImportModule.Web.Interfaces;
 using Altsoft.ShopifyImportModule.Web.Models;
 using Hangfire;
+using System.Web.Http;
+using System.Web.Http.Description;
 using VirtoCommerce.Domain.Store.Services;
-using VirtoCommerce.Platform.Core.Common;
 using VirtoCommerce.Platform.Core.PushNotifications;
 using VirtoCommerce.Platform.Core.Security;
 

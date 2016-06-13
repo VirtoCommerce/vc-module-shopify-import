@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <module>
     <id>Altsoft.ShopifyImport</id>
-    <version>2.9.0</version>
- <platformVersion>2.9.0</platformVersion>   <dependencies>
-      <dependency id="VirtoCommerce.Core" version="2.9.0" />
-      <dependency id="VirtoCommerce.Content" version="2.9.0" />
+    <version>2.11.0</version>
+    <platformVersion>2.11.0</platformVersion>
+    <dependencies>
+        <dependency id="VirtoCommerce.Core" version="2.11.0" />
+        <dependency id="VirtoCommerce.Content" version="2.11.0" />
     </dependencies>
-  
+
     <title>Import from Shopify module</title>
     <description>That module allows you to import existing data from your Shopify</description>
     <authors>
@@ -22,7 +23,7 @@
     <releaseNotes>First version.</releaseNotes>
     <copyright>Copyright © 2015 Altsoft. All rights reserved</copyright>
     <tags>shopify import</tags>
-  
+
     <assemblyFile>Altsoft.ShopifyImportModule.Web.dll</assemblyFile>
     <moduleType>Altsoft.ShopifyImportModule.Web.Module,Altsoft.ShopifyImportModule.Web</moduleType>
     <styles>
@@ -32,29 +33,29 @@
         <directory virtualPath="$/Scripts" searchPattern="*.js" searchSubdirectories="true" />
     </scripts>
 
-  <settings>
-    <group name="Credentials">
-      <setting>
-        <name>Altsoft.ShopifyImport.Credentials.ShopName</name>
-        <valueType>string</valueType>
-        <defaultValue></defaultValue>
-        <title>Shop name</title>
-        <description>Shopify shop name</description>
-      </setting>
-      <setting>
-        <name>Altsoft.ShopifyImport.Credentials.APIKey</name>
-        <valueType>string</valueType>
-        <defaultValue></defaultValue>
-        <title>Private app API Key</title>
-        <description>Shopify private app API key</description>
-      </setting>
-      <setting>
-        <name>Altsoft.ShopifyImport.Credentials.Password</name>
-        <valueType>string</valueType>
-        <defaultValue></defaultValue>
-        <title>Private app Password</title>
-        <description>Shopify private app Password</description>
-      </setting>
-    </group>
-  </settings>
+    <settings>
+        <group name="Credentials">
+            <setting>
+                <name>Altsoft.ShopifyImport.Credentials.ShopName</name>
+                <valueType>string</valueType>
+                <defaultValue></defaultValue>
+                <title>Shop name</title>
+                <description>Shopify shop name</description>
+            </setting>
+            <setting>
+                <name>Altsoft.ShopifyImport.Credentials.APIKey</name>
+                <valueType>string</valueType>
+                <defaultValue></defaultValue>
+                <title>Private app API Key</title>
+                <description>Shopify private app API key</description>
+            </setting>
+            <setting>
+                <name>Altsoft.ShopifyImport.Credentials.Password</name>
+                <valueType>string</valueType>
+                <defaultValue></defaultValue>
+                <title>Private app Password</title>
+                <description>Shopify private app Password</description>
+            </setting>
+        </group>
+    </settings>
 </module>

@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Altsoft.ShopifyImportModule.Web.Interfaces;
+﻿using Altsoft.ShopifyImportModule.Web.Interfaces;
 using Altsoft.ShopifyImportModule.Web.Models;
 using Altsoft.ShopifyImportModule.Web.Models.Shopify;
-using VirtoCommerce.Content.Data.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using VirtoCommerce.Domain.Catalog.Model;
 using VirtoCommerce.Domain.Commerce.Model;
 using VirtoCommerce.Domain.Pricing.Model;
