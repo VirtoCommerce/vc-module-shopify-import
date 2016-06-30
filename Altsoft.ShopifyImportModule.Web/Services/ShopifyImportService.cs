@@ -50,7 +50,7 @@ namespace Altsoft.ShopifyImportModule.Web.Services
             ICatalogSearchService searchService,
             IPricingService pricingService, 
             IPropertyService propertyService,
-            Func<IContentBlobStorageProvider> contentStorageProviderFactory)
+            Func<string, IContentBlobStorageProvider> contentStorageProviderFactory)
         {
 
             _shopifyRepository = shopifyRepository;
@@ -61,7 +61,7 @@ namespace Altsoft.ShopifyImportModule.Web.Services
             _searchService = searchService;
             _pricingService = pricingService;
             _propertyService = propertyService;
-            _contentStorageProvider = contentStorageProviderFactory();
+            _contentStorageProvider = contentStorageProviderFactory("");
         }
 
         #endregion

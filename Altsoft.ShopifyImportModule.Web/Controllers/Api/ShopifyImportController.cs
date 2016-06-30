@@ -16,6 +16,7 @@ namespace Altsoft.ShopifyImportModule.Web.Controllers.Api
         private readonly IShopifyImportService _shopifyImportService;
         private readonly IStoreService _storeService;
         private readonly IUserNameResolver _userNameResolver;
+
         public ShopifyImportController(IPushNotificationManager notifier, IShopifyImportService shopifyImportService,
                                        IStoreService storeService, IUserNameResolver userNameResolver)
         {
