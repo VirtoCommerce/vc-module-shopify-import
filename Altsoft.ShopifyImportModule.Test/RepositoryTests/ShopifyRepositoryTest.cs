@@ -8,7 +8,7 @@ using Xunit;
 
 namespace Altsoft.ShopifyImportModule.Test.RepositoryTests
 {
-    
+    [Trait("Category", "CI")]
     public class ShopifyRepositoryTest
     {
         [Fact]
