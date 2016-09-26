@@ -7,11 +7,11 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Text;
-using VirtoCommerce.ContentModule.Data.Services;
 using VirtoCommerce.Domain.Catalog.Services;
 using VirtoCommerce.Domain.Pricing.Services;
 using VirtoCommerce.Platform.Core.PushNotifications;
 using coreModel = VirtoCommerce.Domain.Catalog.Model;
+using VirtoCommerce.ContentModule.Data.Services;
 
 namespace Altsoft.ShopifyImportModule.Web.Services
 {
@@ -333,9 +333,9 @@ namespace Altsoft.ShopifyImportModule.Web.Services
                     if (product.Prices != null && product.Prices.Any())
                     {
                         var price = product.Prices.First();
-                        price.ProductId = product.Id;
-                        _pricingService.CreatePrice(price);
+                        price.ProductId = product.Id;                        
                     }
+                    _pricingService.SavePrices(product.Prices.ToArray());
                 }
                 catch (Exception ex)
                 {
