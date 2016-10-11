@@ -7,7 +7,7 @@ using VirtoCommerce.Platform.Core.Modularity;
 
 namespace Altsoft.ShopifyImportModule.Web
 {
-    public class Module:IModule
+    public class Module : ModuleBase
     {
         private readonly IUnityContainer _container;
         public Module(IUnityContainer container)
