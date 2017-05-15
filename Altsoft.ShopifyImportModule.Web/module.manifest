@@ -44,14 +44,14 @@
             </setting>
             <setting>
                 <name>Altsoft.ShopifyImport.Credentials.APIKey</name>
-                <valueType>string</valueType>
+                <valueType>securestring</valueType>
                 <defaultValue></defaultValue>
                 <title>Private app API Key</title>
                 <description>Shopify private app API key</description>
             </setting>
             <setting>
                 <name>Altsoft.ShopifyImport.Credentials.Password</name>
-                <valueType>string</valueType>
+                <valueType>securestring</valueType>
                 <defaultValue></defaultValue>
                 <title>Private app Password</title>
                 <description>Shopify private app Password</description>
