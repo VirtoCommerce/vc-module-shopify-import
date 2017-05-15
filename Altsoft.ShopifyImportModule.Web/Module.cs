@@ -15,11 +15,11 @@ namespace Altsoft.ShopifyImportModule.Web
             _container = container;
         }
 
-        public void SetupDatabase()
+        public override void SetupDatabase()
         {
         }
 
-        public void Initialize()
+        public override void Initialize()
         {
             _container.RegisterType<IShopifyRepository, ShopifyRepository>();
             _container.RegisterType<IShopifyImportService, ShopifyImportService>();
@@ -27,13 +27,8 @@ namespace Altsoft.ShopifyImportModule.Web
             _container.RegisterType<IShopifyAuthenticationService, ShopifyAuthenticationService>();
         }
 
-        public void PostInitialize()
+        public override void PostInitialize()
         {
-        }
-
-        public void Uninstall()
-        {
-            
         }
     }
 }
