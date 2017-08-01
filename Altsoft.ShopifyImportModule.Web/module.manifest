@@ -16,7 +16,7 @@
     <owners>
         <owner>Altsoft</owner>
     </owners>
-    <projectUrl>https://github.com/VirtoCommerce/vc-module-shopify-import</projectUrl>
+    <projectUrl>https://virtocommerce.com/apps/extensions/import-from-shopify-to-virtocommerce-platform</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/VirtoCommerce/vc-module-shopify-import/master/Altsoft.ShopifyImportModule.Web/Content/images/shopify.png</iconUrl>
     <licenseUrl>http://virtocommerce.com/terms</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
